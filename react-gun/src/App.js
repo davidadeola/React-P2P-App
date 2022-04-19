@@ -65,7 +65,7 @@ export default function App() {
         name="message"
         value={formState.message}
       />
-      <button onClick={saveMessage}>Send Message</button>
+      <button onClick={saveMessage}>Send</button>
       {
         state.messages.map((message) => (
         <div key={message.createdAt}>
